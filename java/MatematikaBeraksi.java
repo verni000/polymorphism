@@ -10,6 +10,8 @@
 public class MatematikaBeraksi {
     public static void main(String[] args){
         MatematikaCanggih call = new MatematikaCanggih();
+
+        //pertambahan
         call.pertambahan(7, 8);
         System.out.println("pertambahan 7 + 8 =" + call.mat);
         call.pertambahan(2.8, 8.3);
@@ -19,7 +21,7 @@ public class MatematikaBeraksi {
         call.pertambahan(1.5, 4.5, 2.7);
         System.out.println("pertambahan 1.5 + 4.5 + 2.7 =" + call.angka);
         
-        
+        //pengurangn
         call.pengurangan(10, 2);
         System.out.println("pertambahan 10 - 2 =" + call.mat);
         call.pengurangan(5.3, 7.8);
@@ -29,7 +31,7 @@ public class MatematikaBeraksi {
         call.pengurangan(32.5, 9.7, 11.5);
         System.out.println("pertambahan 32.5 - 9.7 - 11.5 =" + call.angka);
         
-        
+        //perkalian
         call.perkalian(2, 5);
         System.out.println("perkalian 2 * 5 =" + call.mat);
         call.perkalian(2.2, 3.3);
@@ -39,7 +41,7 @@ public class MatematikaBeraksi {
         call.perkalian(1.5, 3.4, 5.7);
         System.out.println("perkalian 1.5 * 3.4 * 2.2 =" + call.angka);
         
-        
+        //pembagian
         call.pembagian(10, 5);
         System.out.println("pembagian 10 / 5 =" + call.mat);
         call.pembagian(30.5, 5.5);
@@ -49,7 +51,7 @@ public class MatematikaBeraksi {
         call.pembagian(10.5, 5.5, 2.5);
         System.out.println("pembagian 10.5 / 5.5 / 2.5 =" + call.angka);
         
-        
+        //modulus
         call.modulus(10, 3);
         System.out.println("modulus 10 % 3 =" + call.mat);
         call.modulus(20.3, 8.2);
@@ -57,7 +59,7 @@ public class MatematikaBeraksi {
         call.modulus(10, 3, 2);
         System.out.println("modulus 10 % 3 % 2=" + call.mat);
         call.modulus(35.2, 3.5, 2.7);
-        System.out.println("modulus 35.2 % 3.5 * 2.7 =" + call.mat);
+        System.out.println("modulus 35.2 % 3.5 % 2.7 =" + call.mat);
     }
 }
 
